@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+/* logo */
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 56%;
+    margin-right: 80px;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+#logo img {
+    height: 106px;
+    margin: -28px;
+    margin-bottom: -17px;
+}
+#logo img:hover {
+    transform: scale(1.2);
+    
+}
+#logo h2 {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/* form */
+
+#form {
+    width: 59%;
+    margin-left: 107px;
+    margin-right: 44px;
+    padding: 26px;
+    border-radius: 8px;
+    background-color: white;
+    height: 310px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form .section2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 107%;
+}
+
+#form div form input {
+    width: 90%;
+    height: 59px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+
+
+#form .pp a {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+}
+#form .pp a:hover {
+   text-decoration: underline;
+}
+
+#form p {
+    margin-bottom: 10px;
+}
+
+#form hr {
+    width: 90%;
+}
+
+.end{
+    margin-top: 46px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.end a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.end a:hover{
+text-decoration: underline;
+}
+
+/* buttons */
+
+.button1 {
+    padding-bottom: 15px;
+}
+.btn1 {
+    width: 340px;
+    height: 50px;
+    color: white;
+    background-color: #6161eb;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-color: #6161eb;
+}
+.btn1:hover{
+    background-color: #5353fd;
+ }
+
+
+.button2 {
+    width: 55%;
+    margin-top: 15px;
+    
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2 {
+    height: 40px;
+    color: white;
+    background-color:#2eb72e;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 192px;
+    border-radius: 5px;
+    border: #2eb72e;
+    margin-left: 50px;
+}
+.btn2:hover{
+    background-color: #26a726;
+}
+.btn3{
+    padding-left: 7px;
+}
+.btn3 button{
+    width:25px;
+    font-weight: bold;
+}
+
+/* language */
+
+.language{
+    display: flex;
+    padding-top: 35px;
+}
+
+.language .a0{
+    padding-left: 46px;
+}
+
+.language a {
+    text-decoration: none;
+    padding: 7px;
+    font-size: 13px;
+    color: grey;
+}
+.language .a1 a:hover {
+    text-decoration: underline;
+}
+.hr {
+    margin-top: 12px;
+    width: 90%;
+    padding-left: 52px;
+    color: grey;
+    
+}
+
+/* last */
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+@media(max-width:1263px){
+    .list{
+        font-size: 12px;
+    }
+}
+@media(max-width:1025px){
+    .list{
+        font-size: 10px;
+    }
+}
+.list li{
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 10px
+}
+
+.list li a{
+    text-decoration: none;
+color: grey;
+}
+.list li a:hover{
+    text-decoration: underline;
+}
+/* footer */
+footer{
+    color: grey;
+    font-size: 12px;
+    margin-left: 50px;
+}
